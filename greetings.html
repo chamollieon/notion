@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Fonts: VT323 for clock/date, Macondo for greeting -->
-    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Macondo&display=swap" rel="stylesheet">
+    <!-- Google Fonts: use legacy link for VT323 and Macondo -->
+    <link href="https://fonts.googleapis.com/css?family=VT323|Macondo&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,7 +47,7 @@ h1 {
 
 .clock {
     display: inline;
-    font-family: 'VT323', monospace; /* for clock */
+    font-family: 'VT323', monospace;
     font-size: 2em;
 }
 
@@ -64,14 +64,14 @@ h1 {
 .date {
     display: inline;
     min-width: 162px;
-    font-family: 'VT323', monospace; /* for date */
+    font-family: 'VT323', monospace;
     font-size: 2em;
     padding-right: 30px;
 }
 
 .greet {
     display: inline;
-    font-family: 'Macondo', cursive; /* for greeting */
+    font-family: 'Macondo', cursive;
     font-size: 2rem;
     padding-right: 30px;
 }
@@ -87,7 +87,6 @@ h1 {
           <div class="time" id="hour"></div>
           <div class="colon">:</div>
           <div class="time" id="min"></div>
-          <!-- Seconds removed -->
         </div>
     </div>
   </div>
