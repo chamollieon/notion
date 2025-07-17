@@ -99,8 +99,6 @@ h1 {
         <div class="time" id="hour"></div>
         <div class="colon">:</div>
         <div class="time" id="min"></div>
-        <div class="colon">:</div>
-        <div class="time" id="sec"></div>
       </div>
     </div>
     
@@ -130,11 +128,9 @@ if (hrs < 12)
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
 document.getElementById('min').innerHTML = minutes;
-document.getElementById('sec').innerHTML = seconds;
 }
 
 
-    
 // adds zero infront of single digit number
 function zeros(num) {
 if (num < 10) {
