@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=VT323|Macondo+Swash+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Bebas+Neue" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +40,7 @@ h1 {
 .card {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    background: #06402B;
+    background: #553c4e;
     width: 85vw;
     color: #fff;
     display: inline-block;
@@ -54,7 +54,7 @@ h1 {
 
 .clock {
     display: inline;
-    font-family: 'VT323', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2em;
    
 }
@@ -72,14 +72,14 @@ h1 {
 .date {
     display: inline;
     min-width: 162px;
-    font-family: 'VT323', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2em;
     padding-right: 30px;
 }
 .greet{
     
     display:inline;
-    font-family: 'Macondo Swash Caps', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 2rem;
      padding-right: 30px;
 }
@@ -127,11 +127,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Good Morning Mollie ';
+        greet = 'Good Morning  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon Mollie ';
+        greet = 'Good Afternoon ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening  Mollie ';
+        greet = 'Good Evening  ';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
