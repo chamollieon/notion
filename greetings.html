@@ -7,8 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>greeting2</title>
-
     <style>
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 body, html {
     height: 100%;
     margin: 0;
@@ -16,11 +18,11 @@ body, html {
 }
 
 .full-table {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    width: 100vw;
+    background: #fff;
 }
 
 .card {
